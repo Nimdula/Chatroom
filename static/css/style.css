@@ -1,0 +1,161 @@
+/* HOME.HTML */
+
+body {
+    background-image: url("gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h3 {
+    color: plum;
+    margin-bottom: 10px;
+    font-family: Helvetica;
+}
+
+.name {
+    color: plum;
+    font-family: Helvetica;
+}
+
+.buttons input,
+.buttons button {
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+
+.buttons input {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.buttons button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+
+/* ROOM.HTML */
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.room-header {
+    transform: translateY(-40%);
+    text-align: center;
+    color: #d1e7dd;;
+    font-size: 40px;
+    margin-bottom: -25px;
+    font-family: Helvetica;
+}
+
+.code {
+    transform: translateY(-40%);
+    text-align: center;
+    color: #d1e7dd;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    stroke-width: 2px;
+}
+
+.message-box {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    font-family: Helvetica;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.message span {
+    display: block;
+}
+
+.message.sent {
+    margin-left: 150px;
+    align-self: flex-start;
+    text-align: right;
+    background-color: #d1e7dd;
+    color: #333;
+
+}
+
+.message.received {
+    text-align: left;
+    align-self: flex-end;
+    background-color: #0056b3;
+    color: aliceblue;
+
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+#message {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+#send-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
