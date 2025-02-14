@@ -43,7 +43,7 @@ Open your browser and navigate to `http://127.0.0.1:5000`.
 Chatroom/
 ├── static/
 │   ├── css/
-│       ├── style,css
+│       ├── style.css
 │       └── gradient.jpg
 │   
 ├── templates/
