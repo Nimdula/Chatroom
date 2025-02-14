@@ -27,13 +27,8 @@ This project is a real-time chat application built using Flask and Socket.IO. It
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/chat-app.git
-cd chat-app
-```
-
-Install the required dependencies:
-```bash
-pip install -r requirements.txt
+git clone https://github.com/Nimdula/Chatroom.git
+cd Chatroom
 ```
 
 Run the application:
@@ -176,4 +171,4 @@ def disconnect():
 ```
 
 ## Credits
-This project was developed by **[Your Name]**. Contributions and feedback are always welcome!
+This project was developed by **Nimdula Perera**.
