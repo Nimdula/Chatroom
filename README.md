@@ -40,7 +40,7 @@ Open your browser and navigate to `http://127.0.0.1:5000`.
 
 ## Project Structure
 ```
-chat-app/
+Chatroom/
 ├── static/
 │   ├── css/
 │   │   └── style.css
@@ -50,7 +50,6 @@ chat-app/
 │   ├── home.html
 │   └── room.html
 ├── main.py
-├── requirements.txt
 └── README.md
 ```
 
