@@ -18,9 +18,10 @@ This project is a real-time chat application built using Flask and Socket.IO. It
 - User-friendly UI with responsive design.
 
 ## Technologies Used
-- **Backend:** Python, Flask, Flask-SocketIO
+- **Backend:** Python
 - **Frontend:** HTML, CSS, JavaScript
-- **Libraries:** socket.io.js
+- **Frameworks:** Flask
+- **Libraries:** Socket.IO
 
 ## Setup and Installation
 
